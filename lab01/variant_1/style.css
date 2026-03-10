@@ -1,0 +1,25 @@
+/* Стиль для всієї картки */
+.card {
+    border: 2px solid #ccc;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+/* Початковий стиль кнопки */
+#buy-btn {
+    background-color: #28a745; /* Зелений */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s; /* Плавна зміна кольору */
+}
+
+/* Стиль, який додасть JavaScript після кліку */
+.in-cart {
+    background-color: #6c757d !important; /* Сірий */
+}
