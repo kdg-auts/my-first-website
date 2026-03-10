@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Зовнішня рамка (сіра смужка) */
+.progress-box {
+    width: 100%;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    overflow: hidden; /* Щоб внутрішня смужка не вилазила за краї */
+    margin: 20px 0;
+}
+
+/* Внутрішня смужка (синя) */
+#progress-bar {
+    width: 0%; /* Початкова ширина */
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.4s ease; /* Плавний рух смужки */
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#add-btn { background-color: #28a745; color: white; }
+#reset-btn { background-color: #dc3545; color: white; }
