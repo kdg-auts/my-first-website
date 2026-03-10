@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eef2f3;
+    margin: 0;
+}
+
+.counter-container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#counter-value {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+/* Кнопка кліку */
+#click-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+#click-btn:hover {
+    background-color: #45a049;
+}
+
+/* Кнопка скидання */
+#reset-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+#reset-btn:hover {
+    background-color: #da190b;
+}
