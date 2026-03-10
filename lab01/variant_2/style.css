@@ -1,0 +1,42 @@
+/* Базові стилі для світлої теми */
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff; /* Білий фон */
+    color: #333333; /* Темний текст */
+    transition: 0.5s; /* Плавно змінюємо кольори */
+}
+
+.profile-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+/* Стилі для ТЕМНОЇ ТЕМИ (активуються через JS) */
+body.dark-theme {
+    background-color: #1a1a1a; /* Чорний фон */
+    color: #f0f0f0; /* Світлий текст */
+}
+
+body.dark-theme .profile-card {
+    border-color: #444;
+}
+
+body.dark-theme button {
+    background-color: #f0f0f0;
+    color: #1a1a1a;
+}
