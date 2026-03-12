@@ -1,6 +1,6 @@
 /* Стиль для всієї картки */
 .card {
-    border: 2px solid #ccc;
+    border: 2px solid #be2727;
     width: 200px;
     padding: 20px;
     text-align: center;
@@ -10,7 +10,7 @@
 
 /* Початковий стиль кнопки */
 #buy-btn {
-    background-color: #28a745; /* Зелений */
+    background-color: #2751c4; /* Зелений */
     color: white;
     border: none;
     padding: 10px 20px;
